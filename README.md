@@ -1,14 +1,14 @@
 # Kirill Varchenko
 
-Email: kirill.varchenko@gmail.com
+**Email**: kirill.varchenko@gmail.com
 
-Location: Yerevan, Armenia
+**Location**: Yerevan, Armenia
 
-Citizenship: Russian Federation
+**Citizenship**: Russian Federation
 
-LinkedIn: https://www.linkedin.com/in/kirill-varchenko/
+**LinkedIn**: https://www.linkedin.com/in/kirill-varchenko/
 
-GitHub: https://github.com/kirill-varchenko
+**GitHub**: https://github.com/kirill-varchenko
 
 ## Summary
 
@@ -21,6 +21,7 @@ Sharpening my programming skills in backend development and database design. Par
 - Flask, FastAPI, Django
 - SQLite, Postgres, Redis, ElasticSearch
 - pandas, numpy, scipy, matplotlib, seaborn, biopython, scikit-learn, SQLAlchemy, pydantic, networkx, click
+- Docker, docker-compose
 - git, GitHub
 - pytest
 
