@@ -2,7 +2,7 @@
 
 **Email**: kirill.varchenko@gmail.com
 
-**Location**: Yerevan, Armenia
+**Location**: Leipzig, Germany
 
 **Citizenship**: Russian Federation
 
@@ -12,12 +12,12 @@
 
 ## Summary
 
-Sharpening my programming skills in backend development and database design. Particularly interested in projects in the medical/biological/bioinformatics fields. Love abstractions, patterns, architectures.
+Sharpening my programming skills in backend development and database design. Particularly interested in projects in the medical/biological/bioinformatics fields aiming for Better Diagnosis. Love abstractions, patterns, architectures.
 
 ## Skills
 
 - Linux (Ubuntu)
-- Python, SQL, bash, SAS
+- Python, SQL, Go, bash, SAS
 - Flask, FastAPI, Django
 - SQLite, Postgres, Redis, ElasticSearch
 - pandas, numpy, scipy, matplotlib, seaborn, biopython, scikit-learn, SQLAlchemy, pydantic, networkx, click
@@ -35,11 +35,17 @@ Sharpening my programming skills in backend development and database design. Par
 
 ## Experience
 
-### Research Institute of Influenza, St. Petersburg
+### Research Institute of Influenza, St. Petersburg (remote)
 
 Programmer, April 2021 — Present
 
 Data processing and visualization with **Python**, **pandas**, **matplotlib**, **seaborn**; **Postgres** database maintenance and developing **Django** admin interface; genome sequencing data processing with **BioPython**; machine learning with **scikit-learn**.
+
+### Quantori, Yerevan
+
+Software Engineer, May 2022 — September 2022
+
+Backend developing with FastAPI, Django, Graphene, tests with Pytest. Using chemical toolkits RDKit, OpenBabel, Indigo. Computation scheduling with Apache Airflow. 
 
 ### Covance, St. Petersburg
 
@@ -83,15 +89,17 @@ Courses: Bioinformatics Methods, NGS Data Analysis, Machine Learning, Molecular 
 
 ### Yandex Practicum
 
-**Middle Python Developer**, November 2021 — Present
+**Middle Python Developer**, 2021 — 2022
 
 Stack: Django, FastAPI, Flask, pydantic, marshmallow, Postgres, Docker, Nginx, ElasticSearch, Redis, pytest, Postman.
 
 ### Udemy
 
-**SQL and PostgreSQL: The Complete Developer's Guide**, In progress
+**AWS Certified Cloud Practitioner (CLF-C01) | AWS Essentials**, November 2022
 
-**Docker and Kubernetes: The Complete Guide**, In progress
+**Python Django - The Practical Guide**, September 2022
+
+**Go: The Complete Developer's Guide (Golang)**, June 2022
 
 **REST APIs with Flask and Python**, October 2021
 
@@ -103,6 +111,6 @@ Stack: Django, FastAPI, Flask, pydantic, marshmallow, Postgres, Docker, Nginx, E
 
 **Russian**, native
 
-**English**, intermediate
+**English**, upper intermediate
 
 **German**, Goethe-Zertifikat B2, March 2018
