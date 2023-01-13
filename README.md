@@ -45,7 +45,7 @@ Data processing and visualization with **Python**, **pandas**, **matplotlib**, *
 
 Software Engineer, May 2022 — September 2022
 
-Backend developing with FastAPI, Django, Graphene, tests with Pytest. Using chemical toolkits RDKit, OpenBabel, Indigo. Computation scheduling with Apache Airflow. 
+Backend developing with **FastAPI**, **Django**, **Graphene**, tests with **Pytest**. Using chemical toolkits RDKit, OpenBabel, Indigo. Computation scheduling with **Apache Airflow**.
 
 ### Covance, St. Petersburg
 
@@ -95,7 +95,7 @@ Stack: Django, FastAPI, Flask, pydantic, marshmallow, Postgres, Docker, Nginx, E
 
 ### Udemy
 
-**AWS Certified Cloud Practitioner (CLF-C01) | AWS Essentials**, November 2022
+**AWS Certified Cloud Practitioner (CLF-C01) AWS Essentials**, November 2022
 
 **Python Django - The Practical Guide**, September 2022
 
