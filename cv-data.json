@@ -1,0 +1,236 @@
+{
+    "visit-card": {
+        "first-name": "Kirill",
+        "last-name": "Varchenko",
+        "position": "Software Engineer"
+    },
+    "contacts": [
+        {
+            "icon": "bi-geo-alt",
+            "label": "Leipzig, Germany"
+        },
+        {
+            "icon": "bi-envelope",
+            "href": "mailto:kirill.varchenko@gmail.com",
+            "label": "kirill.varchenko@gmail.com"
+        },
+        {
+            "icon": "bi-telephone",
+            "href": "tel:+4915231413104",
+            "label": "+49 152 31413104"
+        },
+        {
+            "icon": "bi-linkedin",
+            "href": "https://www.linkedin.com/in/kirill-varchenko/",
+            "label": "kirill-varchenko"
+        },
+        {
+            "icon": "bi-github",
+            "href": "https://github.com/kirill-varchenko/",
+            "label": "kirill-varchenko"
+        }
+    ],
+    "summary": "Dedicated software engineer with a background in clinical medicine and bioinformatics. Combining hard and soft skills, a commitment to beautiful and efficient code, and a passion for abstractions and theory. Keen to utilise and improve my skills to create valuable software.",
+    "hard-skills": [
+        "Python, SQL, Go, bash",
+        "Flask, FastAPI, Django",
+        "Postgres, SQLite, Redis, ElasticSearch",
+        "pandas, numpy, scipy, matplotlib, altair, biopython, scikit-learn, SQLAlchemy, pydantic, networkx",
+        "Docker, docker-compose",
+        "pytest",
+        "Linux (Ubuntu)"
+    ],
+    "soft-skills": [
+        "Desire to learn",
+        "Problem solving",
+        "Accepting feedback",
+        "Experience exchange",
+        "Self-supervising"
+    ],
+    "work-experience": [
+        {
+            "company": "Research Institute of Influenza",
+            "start-date": "Apr 2021",
+            "end-date": "Now",
+            "position": "Software Engineer",
+            "description": "Working as a stand-alone programmer and data manager in the laboratory of molecular virology.",
+            "responsibilities": [
+                "Table and unstructured data processing with Python, pandas and SQL",
+                "Scientific visualizations with matplotlib, altair, seaborn",
+                "Postgres database maintenance and developing Django admin interface",
+                "Genome sequencing data processing with BioPython"
+            ],
+            "tags": [
+                "Python",
+                "pandas",
+                "SQL",
+                "bash",
+                "regexp",
+                "matplotlib",
+                "altair",
+                "seaborn",
+                "Postgres",
+                "Django",
+                "BioPython",
+                "scikit-learn",
+                "Selenium",
+                "Docker"
+            ]
+        },
+        {
+            "company": "Quantori",
+            "start-date": "May 2022",
+            "end-date": "Sep 2022",
+            "position": "Software Engineer",
+            "description": "Working in Python/Go programming teams in chemical and pharmacy-related projects.",
+            "responsibilities": [
+                "Developing REST and GraphQL APIs with FastAPI and Graphene",
+                "Refactoring Go microservices",
+                "Developing stages for Apache Airflow scheduled computing",
+                "Using chemical toolkits RDKit, Indigo",
+                "Implementing multiprocessor computations",
+                "Code review"
+            ],
+            "tags": [
+                "Python",
+                "Go",
+                "FastAPI",
+                "Django",
+                "Graphene",
+                "Pydantic",
+                "CouchDB",
+                "Pytest",
+                "Redis",
+                "Apache Airflow",
+                "Docker"
+            ]
+        },
+        {
+            "company": "Project “OML-info”",
+            "start-date": "Jul 2021",
+            "end-date": "Sep 2021",
+            "position": "Freelance Backend and Database Developer",
+            "description": "Information data system for haematologists aiding decision making in the curation of patients with acute myeloid leukaemia. The system includes electronic medical records of patients and donors, laboratory results, automatically calculated scales, internal messaging for doctors, automatic and scheduled events email notification.",
+            "responsibilities": [
+                "REST API and DB schema design",
+                "Backend and DB migrations developing",
+                "Writing tests"
+            ],
+            "tags": [
+                "Python",
+                "Flask",
+                "SQL",
+                "Alembic",
+                "Swagger",
+                "Postgres",
+                "Pydantic",
+                "SQLAlchemy",
+                "Celery",
+                "Docker",
+                "Pytest"
+            ]
+        },
+        {
+            "company": "Covance",
+            "start-date": "Jan 2020",
+            "end-date": "Apr 2021",
+            "position": "Programmer Analyst",
+            "description": "Working in the Clinical Data Management department.",
+            "responsibilities": [
+                "Clinical data validation, processing and reports with SAS language",
+                "Code review"
+            ],
+            "tags": [
+                "SAS",
+                "regexp"
+            ]
+        },
+        {
+            "company": "Clinical work experience",
+            "start-date": "Jan 2014",
+            "end-date": "Aug 2019",
+            "position": "Internist",
+            "description": "Working in inpatient and outpatient departments at Saint Petersburg State Medical University and other clinics. Teaching experience (Propaedeutics of internal medicine course)."
+        }
+    ],
+    "education": [
+        {
+            "school": "Saint-Petersburg Pavlov First State Medical University",
+            "degrees": [
+                {
+                    "title": "Nephrology",
+                    "type": "Additional specialization",
+                    "start-year": 2017,
+                    "end-year": 2017
+                },
+                {
+                    "title": "Internal medicine",
+                    "type": "Internship",
+                    "start-year": 2015,
+                    "end-year": 2016
+                },
+                {
+                    "title": "Medicine",
+                    "type": "Medical degree",
+                    "start-year": 2009,
+                    "end-year": 2015
+                }
+            ]
+        },
+        {
+            "school": "Saint-Petersburg Emperor Alexander I State Transport University",
+            "degrees": [
+                {
+                    "title": "Robotics",
+                    "type": "Engineer's degree with honors",
+                    "start-year": 2000,
+                    "end-year": 2005
+                },
+                {
+                    "title": "Automation and Control",
+                    "type": "Bachelor's degree",
+                    "start-year": 2000,
+                    "end-year": 2004
+                }
+            ]
+        }
+    ],
+    "additional-education": [
+        {
+            "school": "Yandex Practicum",
+            "degrees": [
+                {
+                    "title": "Middle Python Developer",
+                    "start-year": 2021,
+                    "end-year": 2022,
+                    "description": "Subjects: Django, Docker, Nginx, Elasticsearch, ETL patterns, FastAPI, SOLID, microservice architecture, OAuth and Identity management, MongoDB, github actions, message brokers (RabbitMQ)."
+                }
+            ]
+        },
+        {
+            "school": "Saint-Petersburg Bioinformatics Institute",
+            "degrees": [
+                {
+                    "title": "Algorithmic Bioinformatics",
+                    "start-year": 2020,
+                    "end-year": 2021,
+                    "description": "Subjects: Bioinformatics Methods, NGS Data Analysis, Machine Learning, Molecular Biology, Statistics, Linux, Molecular Evolution and Phylogenetics, Bioinformatics Algorithms."
+                }
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "name": "Russian",
+            "level": "native"
+        },
+        {
+            "name": "English",
+            "level": "upper intermediate"
+        },
+        {
+            "name": "German",
+            "level": "B2, Goethe-Zertifikat, 2018"
+        }
+    ]
+}
