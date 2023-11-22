@@ -9,7 +9,7 @@ environment = Environment(loader=FileSystemLoader("templates/"), trim_blocks=Tru
 
 cv_template = environment.get_template("cv.html")
 content = cv_template.render(context)
-with open("output/cv.html", "w", encoding="utf-8") as fo:
+with open("index.html", "w", encoding="utf-8") as fo:
     fo.write(content)
 
 readme_template = environment.get_template("readme.md")
