@@ -33,32 +33,66 @@
     "summary": "Dedicated software engineer with a background in clinical medicine and bioinformatics. Combining hard and soft skills, a commitment to beautiful and efficient code, and a passion for abstractions and theory. Keen to utilise and improve my skills to create valuable software.",
     "hard-skills": [
         "Python, SQL, Go, bash",
-        "Flask, FastAPI, Django",
-        "Postgres, SQLite, Redis, ElasticSearch",
-        "pandas, numpy, scipy, matplotlib, altair, biopython, scikit-learn, SQLAlchemy, pydantic, networkx",
+        "FastAPI, Django, Flask",
+        "PostgreSQL, SQLite, Redis, ElasticSearch, RabbitMQ",
+        "pydantic, pandas, SQLAlchemy",
         "Docker, docker-compose",
-        "pytest",
+        "Pytest, Hypothesis",
         "Linux (Ubuntu)"
     ],
     "soft-skills": [
         "Desire to learn",
-        "Problem solving",
         "Accepting feedback",
         "Experience exchange",
         "Self-supervising"
     ],
-    "work-experience": [
+    "what-brings-joy": [
+        "continuous learning and growth, experience exchange",
+        "collaboration and supportive team",
+        "autonomy and flexibility",
+        "impact and purpose",
+        "clear goals and milestones",
+        "modern development tools and infrastructure"
+    ],
+    "work": [
         {
-            "company": "Research Institute of Influenza",
+            "organization": "6G Health Institute",
+            "start-date": "Jun 2023",
+            "end-date": "Now",
+            "position": "Software Engineer",
+            "description": "Collaborating within a cross-functional team, integrating medical devices and data storage systems.",
+            "highlights": [
+                "designed an asynchronous pipeline to collect data from medical devices, process it and store in FHIR server",
+                "developed libraries for unpacking raw bytes data from various medical devices",
+                "implemented engineering team management, incorporating task tracking mechanisms"
+            ],
+            "tags": [
+                "Python",
+                "Go",
+                "pytest",
+                "pydantic",
+                "Docker",
+                "Redis",
+                "RabbitMQ",
+                "MQTT",
+                "FHIR",
+                "HAPI",
+                "Postgres",
+                "FastAPI",
+                "WebSockets"
+            ]
+        },
+        {
+            "organization": "Research Institute of Influenza",
             "start-date": "Apr 2021",
             "end-date": "Now",
             "position": "Software Engineer",
-            "description": "Working as a stand-alone programmer and data manager in the laboratory of molecular virology.",
-            "responsibilities": [
-                "Table and unstructured data processing with Python, pandas and SQL",
-                "Scientific visualizations with matplotlib, altair, seaborn",
-                "Postgres database maintenance and developing Django admin interface",
-                "Genome sequencing data processing with BioPython"
+            "description": "Working as a stand-alone programmer and data engineer in the Laboratory of Molecular Virology.",
+            "highlights": [
+                "created an Django-based system for the management of sample metadata, genomic sequences, and seamless uploading to public databases",
+                "developed a set of CLI tools to process GISAID dump files",
+                "designed scientific visualizations with matplotlib, altair, seaborn",
+                "genome sequencing data processing"
             ],
             "tags": [
                 "Python",
@@ -78,18 +112,17 @@
             ]
         },
         {
-            "company": "Quantori",
+            "organization": "Quantori",
             "start-date": "May 2022",
             "end-date": "Sep 2022",
             "position": "Software Engineer",
-            "description": "Working in Python/Go programming teams in chemical and pharmacy-related projects.",
-            "responsibilities": [
-                "Developing REST and GraphQL APIs with FastAPI and Graphene",
-                "Refactoring Go microservices",
-                "Developing stages for Apache Airflow scheduled computing",
-                "Using chemical toolkits RDKit, Indigo",
-                "Implementing multiprocessor computations",
-                "Code review"
+            "description": "Working in agile Python/Go programming teams in chemical and pharmacy-related projects.",
+            "highlights": [
+                "developing REST and GraphQL APIs with FastAPI and Graphene",
+                "refactored Go API gateway microservice",
+                "developed python stages for Apache Airflow scheduled computing",
+                "enhanced the performance of CPU-intensive computations through the implementation of multiprocessing techniques",
+                "performed code reviews"
             ],
             "tags": [
                 "Python",
@@ -102,51 +135,51 @@
                 "Pytest",
                 "Redis",
                 "Apache Airflow",
-                "Docker"
+                "Docker",
+                "RDKit",
+                "Indigo"
             ]
         },
         {
-            "company": "Project “OML-info”",
+            "organization": "Project “OML-info”",
             "start-date": "Jul 2021",
             "end-date": "Sep 2021",
-            "position": "Freelance Backend and Database Developer",
+            "position": "Contract Backend and Database Developer",
             "description": "Information data system for haematologists aiding decision making in the curation of patients with acute myeloid leukaemia. The system includes electronic medical records of patients and donors, laboratory results, automatically calculated scales, internal messaging for doctors, automatic and scheduled events email notification.",
-            "responsibilities": [
-                "REST API and DB schema design",
-                "Backend and DB migrations developing",
-                "Writing tests"
+            "highlights": [
+                "designed REST API and DB schema",
+                "developed backend and DB migrations",
+                "implemented tests"
             ],
             "tags": [
                 "Python",
                 "Flask",
+                "Flask-RESTX",
+                "Swagger",
                 "SQL",
                 "Alembic",
-                "Swagger",
                 "Postgres",
                 "Pydantic",
                 "SQLAlchemy",
                 "Celery",
                 "Docker",
-                "Pytest"
+                "Pytest",
+                "Redis"
             ]
         },
         {
-            "company": "Covance",
+            "organization": "Covance",
             "start-date": "Jan 2020",
             "end-date": "Apr 2021",
             "position": "Programmer Analyst",
-            "description": "Working in the Clinical Data Management department.",
-            "responsibilities": [
-                "Clinical data validation, processing and reports with SAS language",
-                "Code review"
-            ],
-            "tags": [
-                "SAS",
-                "regexp"
+            "description": "Working as a SAS programmer in the Clinical Data Management department.",
+            "highlights": [
+                "developed and maintained edit and validation checks within Electronic Data Capture (EDC), reconciliation and other reports",
+                "performed code reviews"
             ]
         },
         {
-            "company": "Clinical work experience",
+            "organization": "Clinical work experience",
             "start-date": "Jan 2014",
             "end-date": "Aug 2019",
             "position": "Internist",

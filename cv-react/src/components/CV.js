@@ -4,15 +4,14 @@ import classes from "./CV.module.css";
 import EducationStage from "./EducationStage";
 import EmploymentStage from "./EmploymentStage";
 import InfoBlock from "./InfoBlock";
-import LanguageList from "./LanguageList";
 import List from "./List";
 import Page from "./Page";
 import Summary from "./Summary";
 import VisitCard from "./VisitCard";
 
 const CV = (props) => {
-  const firstPageWorkExperience = props.data["work-experience"] ? props.data["work-experience"].slice(0, 3) : [];
-  const secondPageWorkExperience = props.data["work-experience"] ? props.data["work-experience"].slice(3) : [];
+  const firstPageWorkExperience = props.data["work"] ? props.data["work"].slice(0, 3) : [];
+  const secondPageWorkExperience = props.data["work"] ? props.data["work"].slice(3) : [];
   const educationList = props.data["education"] ? props.data["education"].map((education, idx) => (
     <EducationStage
       key={idx}
@@ -42,8 +41,11 @@ const CV = (props) => {
           <InfoBlock header="Hard skills">
             <List items={props.data["hard-skills"]} />
           </InfoBlock>
-          <InfoBlock header="Soft skills">
+          {/* <InfoBlock header="Soft skills">
             <List items={props.data["soft-skills"]} />
+          </InfoBlock> */}
+          <InfoBlock header="What brings joy">
+            <List items={props.data["what-brings-joy"]} />
           </InfoBlock>
         </Column>
         <Column width="60%">
@@ -65,9 +67,9 @@ const CV = (props) => {
           <InfoBlock header="Additional Education">
             {additionalEducationList}
           </InfoBlock>
-          <InfoBlock header="Languages">
+          {/* <InfoBlock header="Languages">
             <LanguageList items={props.data["languages"]} />
-          </InfoBlock>
+          </InfoBlock> */}
         </Column>
       </Page>
     </div>

@@ -1,5 +1,5 @@
 .employment-stage {
-
+    margin-bottom: .5rem;
 }
 
 .header {
@@ -8,7 +8,7 @@
     justify-content: space-between;
 }
 
-.company {
+.organization {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1.1rem;

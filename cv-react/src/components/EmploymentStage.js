@@ -6,17 +6,16 @@ const EmploymentStage = (props) => {
     return (
         <div className={classes["employment-stage"]}>
           <div className={classes.header}>
-            <div className={classes.company}>{props.data.company}</div>
+            <div className={classes.organization}>{props.data.organization}</div>
             <div className={classes.dates}>
               {props.data["start-date"]} — {props.data["end-date"]}
             </div>
           </div>
           <div className={classes.position}>{props.data.position}</div>
           <p className={classes.description}>{props.data.description}</p>
-          {props.data["responsibilities"] && (
+          {props.data["highlights"] && (
             <div>
-              Responsibilities:
-              <List items={props.data["responsibilities"]} />
+              <List items={props.data["highlights"]} />
             </div>
           )}
           {props.data.tags && <Tags items={props.data.tags} />}
