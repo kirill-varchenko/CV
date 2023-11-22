@@ -1,0 +1,97 @@
+{% import "macros.html" as macros %}
+<html>
+  <head>
+    <link rel="stylesheet" href="cv.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <div class="cv">
+      <div class="page">
+        <div class="column column-left">
+          <div>
+            <div class="visitcard-photo">
+              <img src="photo.jpg" alt="photo" />
+            </div>
+            <div>
+              <div class="visitcard-firstname">{{ visit_card.first_name }}</div>
+              <div class="visitcard-lastname">{{ visit_card.last_name }}</div>
+              <div class="visitcard-position">{{ visit_card.position }}</div>
+            </div>
+          </div>
+          <div class="contacts">
+            {% for contact in contacts %}
+            <div class="contact-item">
+              <i class="{{ contact.icon }}"></i>
+              {% if contact.href %}
+              <a href="{{ contact.href }}">{{ contact.label }}</a>
+              {% else %}
+              <span>{{ contact.label }}</span>
+              {% endif %}
+            </div>
+            {% endfor %}
+          </div>
+          <div class="info-block">
+            <h3>Profile</h3>
+            <p class="summary">{{ summary }}</p>
+          </div>
+          <div class="info-block">
+            <h3>Hard skills</h3>
+            {{ macros.list(hard_skills) }}
+          </div>
+          <!-- <div class="info-block">
+            <h3>Soft skills</h3>
+            {{ macros.list(soft_skills) }}
+          </div> -->
+          <div class="info-block">
+            <h3>What Brings Joy</h3>
+            {{ macros.list(what_brings_joy) }}
+          </div>
+        </div>
+        <div class="column column-right">
+          <div class="info-block">
+            <h3>Work Experience</h3>
+            {% for experience in work[:3] %} 
+            {{ macros.employment_stage(experience) }} 
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="page">
+        <div class="column">
+          <div class="info-block">
+            {% for experience in work[3:] %} 
+            {{ macros.employment_stage(experience) }} 
+            {% endfor %}
+          </div>
+          <div class="info-block">
+            <h3>Education</h3>
+            {% for stage in education %} 
+            {{ macros.education_stage(stage) }} 
+            {% endfor %}
+          </div>
+          <div class="info-block">
+            <h3>Additional Education</h3>
+            {% for stage in additional_education %} 
+            {{ macros.education_stage(stage) }} 
+            {% endfor %}
+          </div>
+          <!-- <div class="info-block">
+            <h3>Languages</h3>
+            <ul class="language-list">
+                {% for language in languages %}
+                  <li class="language-list-item">
+                    <div class="language-list-item-name">{{ language.name }}</div>
+                    <div>{{ language.level }}</div>
+                  </li>
+                {% endfor %}
+              </ul>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+{% macro list(items) -%}
+<ul class="list">
+  {% for item in items %}
+  <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+{%- endmacro %} 
+
+{% macro tags(items) -%}
+<ul class="tags">
+  {% for item in items %}
+  <li class="tag">{{ item }}</li>
+  {% endfor %}
+</ul>
+{%- endmacro %}
+
+{% macro employment_stage(data) -%}
+<div>
+    <div class="employment-stage-header">
+      <div class="employment-stage-company">
+        {{ data.organization }}
+      </div>
+      <div class="employment-stage-dates">
+        {{ data.start_date }} — {{ data.end_date }}
+      </div>
+    </div>
+    <div class="employment-stage-position">
+      {{ data.position }}
+    </div>
+    <p class="employment-stage-description">
+      {{ data.description }}
+    </p>
+    {{ list(data.highlights) }}
+    {{ tags(data.tags) }}
+  </div>
+{%- endmacro %}
+
+{% macro education_stage(data) -%}
+<div>
+    <div class="education-stage-header">{{ data.school }}</div>
+    <div>
+        {% for degree in data.degrees %}
+        <div class="education-stage-degree">
+            <div class="education-stage-degree-header">
+            <div class="education-stage-degree-title">{{ degree.title }}</div>
+            <div class="education-stage-degree-dates">
+              {{ degree.start_year }} — {{ degree.end_year }}
+            </div>
+            </div>
+            <div class="education-stage-degree-type">{{ degree.type }}</div>
+            <div class="education-stage-degree-description">{{ degree.description }}</div>
+          </div>
+        {% endfor %}      
+    </div>
+  </div>
+{%- endmacro %}
