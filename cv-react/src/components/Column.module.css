@@ -1,9 +1,0 @@
-.column {
-    height: 100%;
-    box-sizing: border-box;
-    padding: 20px;
-}
-
-.column > :first-child {
-    margin-top: 0;
-}
