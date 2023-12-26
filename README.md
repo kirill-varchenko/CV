@@ -16,7 +16,7 @@ Dedicated software engineer with a background in clinical medicine and bioinform
 
 ## Hard Skills
 
-- Python, SQL, Go, bash
+- Python, SQL, Go, bash, regex
 - FastAPI, Django, Flask
 - PostgreSQL, SQLite, Redis, ElasticSearch, RabbitMQ
 - pydantic, pandas, SQLAlchemy
@@ -33,29 +33,36 @@ Dedicated software engineer with a background in clinical medicine and bioinform
 - clear goals and milestones
 - modern development tools and infrastructure
 
+## Pet Projects and Interests
+
+- JavaScript, Vue.js, React
+- AWS
+- Rust, Haskell
+
 ## Experience
 
-### 6G Health Institute
-
-Software Engineer, Jun 2023 — Now
-
-Collaborating within a cross-functional team, integrating medical devices and data storage systems.
-- designed an asynchronous pipeline to collect data from medical devices, process it and store in FHIR server
-- developed libraries for unpacking raw bytes data from various medical devices
-- implemented engineering team management, incorporating task tracking mechanisms
-
-Python | Go | pytest | pydantic | Docker | Redis | RabbitMQ | MQTT | FHIR | HAPI | Postgres | FastAPI | WebSockets
 ### Research Institute of Influenza
 
 Software Engineer, Apr 2021 — Now
 
 Working as a stand-alone programmer and data engineer in the Laboratory of Molecular Virology.
-- created an Django-based system for the management of sample metadata, genomic sequences, and seamless uploading to public databases
+- created an Django-based system for the management of samples metadata, genomic sequences, and seamless uploading to public databases
 - developed a set of CLI tools to process GISAID dump files
 - designed scientific visualizations with matplotlib, altair, seaborn
 - genome sequencing data processing
 
 Python | pandas | SQL | bash | regexp | matplotlib | altair | seaborn | Postgres | Django | BioPython | scikit-learn | Selenium | Docker
+### 6G Health Institute
+
+Software Engineer, Jun 2023 — Dec 2023
+
+Collaborating within a cross-functional team, integrating medical devices and data storage systems.
+- designed an asynchronous pipeline to collect data from medical devices, process it and store in FHIR server
+- developed libraries for unpacking raw bytes data from various medical devices
+- designed a low latency wave data decoder, transmitter and plotter
+- implemented engineering team management, incorporating task tracking mechanisms
+
+Python | Go | pytest | pydantic | Docker | Redis | RabbitMQ | MQTT | FHIR | HAPI | Postgres | FastAPI | WebSockets | UDP
 ### Quantori
 
 Software Engineer, May 2022 — Sep 2022
@@ -150,6 +157,6 @@ Subjects: Bioinformatics Methods, NGS Data Analysis, Machine Learning, Molecular
 
 **Russian**, native
 
-**English**, upper intermediate
+**English**, professional working proficiency
 
-**German**, B2, Goethe-Zertifikat, 2018
+**German**, C1, Zertifikat 2023

@@ -37,7 +37,7 @@
     ],
     "summary": "Dedicated software engineer with a background in clinical medicine and bioinformatics. Combining hard and soft skills, a commitment to beautiful and efficient code, and a passion for abstractions and theory. Keen to utilise and improve my skills to create valuable software.",
     "hard_skills": [
-        "Python, SQL, Go, bash",
+        "Python, SQL, Go, bash, regex",
         "FastAPI, Django, Flask",
         "PostgreSQL, SQLite, Redis, ElasticSearch, RabbitMQ",
         "pydantic, pandas, SQLAlchemy",
@@ -59,34 +59,12 @@
         "clear goals and milestones",
         "modern development tools and infrastructure"
     ],
+    "pet_stills": [
+        "JavaScript, Vue.js, React",
+        "AWS",
+        "Rust, Haskell"
+    ],
     "work": [
-        {
-            "organization": "6G Health Institute",
-            "start_date": "Jun 2023",
-            "end_date": "Now",
-            "position": "Software Engineer",
-            "description": "Collaborating within a cross-functional team, integrating medical devices and data storage systems.",
-            "highlights": [
-                "designed an asynchronous pipeline to collect data from medical devices, process it and store in FHIR server",
-                "developed libraries for unpacking raw bytes data from various medical devices",
-                "implemented engineering team management, incorporating task tracking mechanisms"
-            ],
-            "tags": [
-                "Python",
-                "Go",
-                "pytest",
-                "pydantic",
-                "Docker",
-                "Redis",
-                "RabbitMQ",
-                "MQTT",
-                "FHIR",
-                "HAPI",
-                "Postgres",
-                "FastAPI",
-                "WebSockets"
-            ]
-        },
         {
             "organization": "Research Institute of Influenza",
             "start_date": "Apr 2021",
@@ -94,7 +72,7 @@
             "position": "Software Engineer",
             "description": "Working as a stand-alone programmer and data engineer in the Laboratory of Molecular Virology.",
             "highlights": [
-                "created an Django-based system for the management of sample metadata, genomic sequences, and seamless uploading to public databases",
+                "created an Django-based system for the management of samples metadata, genomic sequences, and seamless uploading to public databases",
                 "developed a set of CLI tools to process GISAID dump files",
                 "designed scientific visualizations with matplotlib, altair, seaborn",
                 "genome sequencing data processing"
@@ -114,6 +92,35 @@
                 "scikit-learn",
                 "Selenium",
                 "Docker"
+            ]
+        },
+        {
+            "organization": "6G Health Institute",
+            "start_date": "Jun 2023",
+            "end_date": "Dec 2023",
+            "position": "Software Engineer",
+            "description": "Collaborating within a cross-functional team, integrating medical devices and data storage systems.",
+            "highlights": [
+                "designed an asynchronous pipeline to collect data from medical devices, process it and store in FHIR server",
+                "developed libraries for unpacking raw bytes data from various medical devices",
+                "designed a low latency wave data decoder, transmitter and plotter",
+                "implemented engineering team management, incorporating task tracking mechanisms"
+            ],
+            "tags": [
+                "Python",
+                "Go",
+                "pytest",
+                "pydantic",
+                "Docker",
+                "Redis",
+                "RabbitMQ",
+                "MQTT",
+                "FHIR",
+                "HAPI",
+                "Postgres",
+                "FastAPI",
+                "WebSockets",
+                "UDP"
             ]
         },
         {
@@ -220,13 +227,13 @@
             "degrees": [
                 {
                     "title": "Robotics",
-                    "type": "Engineer's degree with honors",
+                    "type": "Engineering diploma with honors (Master equivalent)",
                     "start_year": 2000,
                     "end_year": 2005
                 },
                 {
                     "title": "Automation and Control",
-                    "type": "Bachelor's degree",
+                    "type": "Bachelor degree",
                     "start_year": 2000,
                     "end_year": 2004
                 }
@@ -316,11 +323,11 @@
         },
         {
             "name": "English",
-            "level": "upper intermediate"
+            "level": "professional working proficiency"
         },
         {
             "name": "German",
-            "level": "B2, Goethe-Zertifikat, 2018"
+            "level": "C1, Zertifikat 2023"
         }
     ]
 }

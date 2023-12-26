@@ -23,6 +23,12 @@
 - {{ what }}
 {% endfor %}
 
+## Pet Projects and Interests
+
+{% for skill in pet_stills %}
+- {{ skill }}
+{% endfor %}
+
 ## Experience
 
 {% for exp in work %}
